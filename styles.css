@@ -1,0 +1,58 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    }
+
+.tiprincipal{
+    font-size: 3em;
+    color: #000000;
+    width: auto;
+    padding: 0em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 12em;
+}
+
+.pprincipal{
+    width: 60%;
+    font-size: 1em;
+    padding:0em 0em 0em 1em;
+    
+}
+
+.tisecundario{
+    width: auto;
+    font-size: 2em;
+}
+
+.psecundario{
+    width: auto;
+    font-size: 1em;
+}
+
+.card-container{
+    border-radius: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
+
+.card-img{
+    width: auto;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 1%;    
+}
+
+.card-img:hover{
+    background-color: rgb(245, 135, 123);
+}
+
+a:visited {
+    color: rgb(110, 5, 110);
+    font-weight: bold;
+}
